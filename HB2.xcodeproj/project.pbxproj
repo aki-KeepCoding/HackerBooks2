@@ -13,6 +13,8 @@
 		61A986B71E1D64EA005C993C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A986B61E1D64EA005C993C /* Assets.xcassets */; };
 		61A986BA1E1D64EA005C993C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A986B81E1D64EA005C993C /* LaunchScreen.storyboard */; };
 		61A986C51E1D64EA005C993C /* HB2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A986C41E1D64EA005C993C /* HB2Tests.swift */; };
+		61A986D01E1D9CDC005C993C /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */; };
+		61A986D11E1D9CE3005C993C /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		61A986C01E1D64EA005C993C /* HB2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HB2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A986C41E1D64EA005C993C /* HB2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HB2Tests.swift; sourceTree = "<group>"; };
 		61A986C61E1D64EA005C993C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		61A986AE1E1D64EA005C993C /* HB2 */ = {
 			isa = PBXGroup;
 			children = (
+				61A986D21E1DA392005C993C /* Model */,
 				61A986AF1E1D64EA005C993C /* AppDelegate.swift */,
 				61A986B11E1D64EA005C993C /* ViewController.swift */,
 				61A986B31E1D64EA005C993C /* Main.storyboard */,
@@ -94,6 +98,14 @@
 				61A986C61E1D64EA005C993C /* Info.plist */,
 			);
 			path = HB2Tests;
+			sourceTree = "<group>";
+		};
+		61A986D21E1DA392005C993C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +215,7 @@
 			files = (
 				61A986B21E1D64EA005C993C /* ViewController.swift in Sources */,
 				61A986B01E1D64EA005C993C /* AppDelegate.swift in Sources */,
+				61A986D01E1D9CDC005C993C /* CoreDataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A986D11E1D9CE3005C993C /* CoreDataTableViewController.swift in Sources */,
 				61A986C51E1D64EA005C993C /* HB2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
