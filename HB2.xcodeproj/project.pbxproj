@@ -80,6 +80,7 @@
 		61A986AE1E1D64EA005C993C /* HB2 */ = {
 			isa = PBXGroup;
 			children = (
+				61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */,
 				61A986D21E1DA392005C993C /* Model */,
 				61A986AF1E1D64EA005C993C /* AppDelegate.swift */,
 				61A986B11E1D64EA005C993C /* ViewController.swift */,
@@ -103,7 +104,6 @@
 		61A986D21E1DA392005C993C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				61A986CF1E1D9CDC005C993C /* CoreDataTableViewController.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
